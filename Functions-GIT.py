@@ -15,7 +15,7 @@ greeting()
 # AJ
 # 2.14.19
 
-x = 500
+x = 676867
 
 
 def print_something():
