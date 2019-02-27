@@ -44,3 +44,11 @@ def print_number(x):
     print(str(x))
 print_number(15)
 print_number('\n' + "hello their")
+
+#  4.14.4. name and age
+# aj / 2.18.19
+def name_age(name, age):
+    print('\n' 'helllo their, my name is ', name,  ' also i am ', str(age), 'years old.')
+name_age('AJ Hudson', 15)
+name_age('jeff', 44)
+name_age("james", 33)
