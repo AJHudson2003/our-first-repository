@@ -2,21 +2,20 @@
 # Aj Hudson
 # 2.6.19
 
-'''
+
 name = input("What is your name: ")
 def greeting():
     print(" hi there " + name + "!")
     print("nice to meet you")
 
 greeting()
-'''
+
 
 # 4.13.4: Functions and Variables
 # AJ
 # 2.14.19
 
 x = 676867
-
 
 def print_something():
     x = 15
@@ -25,3 +24,23 @@ def print_something():
 print_something()
 
 print(x)
+
+# 4.13.5: functions and variables pt2
+# aj
+# 2.14.19
+
+my_variables = 4.5659
+
+def something():
+    print(my_variables + 10)
+
+something()
+
+# 4.13.6: functions & Variables pt 3
+# 2.18.19
+# aj hudson
+
+def print_number(x):
+    print(str(x))
+print_number(15)
+print_number('\n' + "hello their")
