@@ -52,3 +52,13 @@ def name_age(name, age):
 name_age('AJ Hudson', 15)
 name_age('jeff', 44)
 name_age("james", 33)
+
+# 4.14.5: default parameter values
+# aj 2.19.19
+
+def print_two_numbers(x, y = 20):
+    print('first number: ', x)
+    print('second number: ', y)
+print_two_numbers(15, 36)
+
+print_two_numbers(56)
