@@ -62,3 +62,11 @@ def print_multiple_times(string, times):
         print(string)
 
 print_multiple_times('I like games', 5)
+
+# 4.14.7 print multiple times
+# aj 2.19.19
+def print_multiple_times(string, times):
+    for i in range(times):
+        print(string)
+
+print_multiple_times('I like games', 5)
