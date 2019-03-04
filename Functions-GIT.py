@@ -80,3 +80,16 @@ try:
     print('your number: ' + str(my_number))
 except ValueError:
     print('that was not an integer')
+
+    # 4.16.4: enter  name and age
+    # 2.20.19
+    # AJ hudson
+    name = input('what is your name: ')
+    age = -1
+    try:
+        age = int(input('enter an age: '))
+    except ValueError:
+        print('that was not a good one. ')
+
+    print('\n' 'name', name)
+    print('age', age)
