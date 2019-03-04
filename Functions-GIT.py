@@ -70,3 +70,13 @@ def print_multiple_times(string, times):
         print(string)
 
 print_multiple_times('I like games', 5)
+
+# 4.16.3: enter a number
+# 2.20.19
+# AJ hudson
+
+try:
+    my_number = int(input('enter an number: '))
+    print('your number: ' + str(my_number))
+except ValueError:
+    print('that was not an integer')
